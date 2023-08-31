@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   const sendMessage = (message) => {
-    const url = "/api/chat";
+    const url = "https://why-bother.vercel.app/api/chat";
     const data = {
       model: "gpt-3.5-turbo-0301",
       messages: [
